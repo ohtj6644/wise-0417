@@ -1,15 +1,21 @@
 package org.example;
 
-import java.util.Scanner;
+import org.example.controller.Container;
 
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System. in);
-        new App(sc).run();
+        Container.init();
+        new App().run();
 
-        sc.close();
+
+
+
 
 
     }
 }
+
+
+// 0420 명언앱 8단계 기능구현 (리팩터링 전 )
+// 0424 명언앱 리팩터링 진행

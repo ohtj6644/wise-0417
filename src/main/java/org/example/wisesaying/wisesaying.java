@@ -1,4 +1,4 @@
-package org.example;
+package org.example.wisesaying;
 
 public class wisesaying {
 
@@ -13,15 +13,15 @@ public class wisesaying {
     }
 
 
-    int getId(){
+    public int getId(){
         return this.id;
     }
 
-    String getContent(){
+    public String getContent(){
         return this.content;
     }
 
-    String getName(){
+    public String getName(){
         return this.name;
     }
 
